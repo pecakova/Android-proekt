@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="text"
+        android:hint="@string/name"
+        android:autofillHints="name"/>
+
+    <EditText
+        android:id="@+id/edtAge"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/age"
+        android:inputType="number"
+        android:autofillHints="age"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupGender"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <RadioButton
+            android:layout_height="50dp"
+            android:layout_width="300dp"
+            android:id="@+id/radioMale"
+            android:text="@string/male" />
+        <RadioButton
+            android:layout_height="50dp"
+            android:layout_width="300dp"
+            android:id="@+id/radioFemale"
+            android:text="@string/female" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:autofillHints="emailAddress" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:autofillHints="password" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupUserType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_height="50dp"
+            android:layout_width="300dp"
+            android:id="@+id/radioDriver"
+            android:text="@string/driver" />
+        <RadioButton
+            android:layout_height="50dp"
+            android:layout_width="300dp"
+            android:id="@+id/radioPassenger"
+            android:text="@string/passenger" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="@string/register_button" />
+</LinearLayout>

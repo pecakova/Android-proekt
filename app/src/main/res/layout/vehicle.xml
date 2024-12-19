@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtVehicleModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/vehicleModel"
+            android:inputType="text"
+            android:autofillHints="vehicleModel"/>
+
+
+        <EditText
+            android:id="@+id/edtVehicleYear"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/vehicleYear"
+            android:inputType="number"
+            android:autofillHints="vehicleYear"/>
+
+        <EditText
+            android:id="@+id/edtVehicleColor"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/vehicleColor"
+            android:inputType="text"
+            android:autofillHints="vehicleColor"/>
+
+        <EditText
+            android:id="@+id/edtVehiclePlate"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/vehicleRegistrationPlate"
+            android:inputType="text"
+            android:autofillHints="vehicleRegistrationPlate"/>
+
+        <EditText
+            android:id="@+id/edtVehicleAvailability"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/availability"
+            android:inputType="text"
+            android:autofillHints="availability"/>
+        <Button
+            android:id="@+id/btnSaveVehicle"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/save" />
+</LinearLayout>
+
+

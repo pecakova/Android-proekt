@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvVehicleModel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Model" />
+
+    <TextView
+        android:id="@+id/tvVehicleYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Year" />
+
+    <TextView
+        android:id="@+id/tvVehiclePlate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plate" />
+
+    <TextView
+        android:id="@+id/tvVehicleAvailability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Availability" />
+
+</LinearLayout>
